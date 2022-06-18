@@ -6,6 +6,17 @@ body {
   font-size: 24px;
 }
 
+.weirdo {
+  opacity: .75;
+}
+
+.weirdo:hover {
+  filter: drop-shadow(0px 5px 5px #222);
+  opacity: 1;
+  transition: .2s;
+  cursor: pointer;
+}
+
 #kiwi {
   width: 7%;
 }
